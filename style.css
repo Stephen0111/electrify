@@ -1,0 +1,286 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#scral {
+    color: antiquewhite !important;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+#ford {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#polestar {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#tesla {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+#bmw {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#hyundai {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#audi {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#bikes {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    #hero {
+        padding-left: 160px;
+    }
+}
+
+#hero:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: whitesmoke;
+    margin: 0 0 0 0;
+}
+
+#hero p {
+    color: lightcyan;
+    margin: 15px 0 0 0;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+}
+
+#hero p span {
+    color: black;
+    letter-spacing: 1px;
+}
+
+#hero .social-links {
+    margin-top: 30px;
+}
+
+#hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+#hero .social-links a:hover {
+    color: #0563bb;
+}
+
+@media (max-width: 992px) {
+    #hero {
+        text-align: center;
+    }
+    #hero h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    #hero p {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+#logo {
+    background-color: #fff;
+}
+
+.nav-link {
+    font-weight: 950;
+    background-color: #fff;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#logo1:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px whitesmoke;
+    font-size: 27px;
+}
+
+#button-text {
+    text-align: center;
+    justify-self: center;
+    font-weight: 950;
+    color: #fff;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+#butto {
+    text-align: center;
+    justify-self: center;
+    text-align: center;
+    justify-content: center;
+    font-weight: 950;
+    font-size: 20px;
+    background-color: black;
+    width: 20% !important;
+}
+
+#butto:hover {
+    font-size: 30px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px whitesmoke;
+    font-size: 27px;
+    width: 40% !important;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24
+}
+
+h5 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#hide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 25px;
+    box-shadow: 10px 15px black;
+    color: #45505b;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #45505b;
+    align-items: center;
+}
+
+#col1 {
+    border-right-style: #45505b;
+}
+
+.nav-link:hover {
+    box-shadow: 10px 10px white;
+    font-size: 27px;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-nav {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #hide {
+        display: none;
+    }
+}
+
+#foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    padding-left: 15px;
+}
+
+#socials {
+    display: inline;
+}
+
+#bikes1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
